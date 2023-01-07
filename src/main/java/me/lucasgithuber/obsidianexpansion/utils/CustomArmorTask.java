@@ -48,9 +48,9 @@ public class CustomArmorTask extends BukkitRunnable {
                     chestSfStack instanceof Armor &&
                     legSfStack instanceof Armor &&
                     bootSfStack instanceof Armor) {
-                Scheduler.run(() -> log(Level.WARNING,
-                        "particle"
-                ));
+                // Scheduler.run(() -> log(Level.WARNING,
+                //         "particle"
+                // ));
                 if (player == null) {
                     this.cancel();
                     return;
